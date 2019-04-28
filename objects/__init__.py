@@ -6,8 +6,9 @@ from musicvideos import MusicVideos
 from tvshows import TVShows
 from music import Music
 from obj import Objects
-from actions import Actions
-from actions import PlaylistWorker
-from actions import on_play, on_update, special_listener
+from play import ListItem
+from play.actions import Actions
+from play.actions import PlaylistWorker
+from play.actions import on_play, on_update, special_listener
 
 Objects().mapping()
